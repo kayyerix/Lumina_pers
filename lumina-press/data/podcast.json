@@ -1,0 +1,31 @@
+{
+  "podcast": [
+    {
+      "id": 1,
+      "judul": "Episode 1: Lumina Itu Apa?",
+      "deskripsi": "Perkenalan Lumina Club, tujuan dibentuknya, dan rencana ke depan.",
+      "host": "Tim Lumina",
+      "tanggal": "2025-10-01",
+      "thumbnail": "../assets/images/podcast/episode-1.jpg",
+      "youtube": "https://www.youtube.com/watch?v=XXXXXXX"
+    },
+    {
+      "id": 2,
+      "judul": "Episode 2: Fotografi di Sekolah",
+      "deskripsi": "Diskusi ringan tentang pengalaman dan tantangan fotografi di lingkungan sekolah.",
+      "host": "Lumina Podcast Team",
+      "tanggal": "2025-11-05",
+      "thumbnail": "../assets/images/podcast/episode-2.jpg",
+      "youtube": "https://www.youtube.com/watch?v=XXXXXXX"
+    },
+    {
+      "id": 3,
+      "judul": "Episode 3: Berani Bicara",
+      "deskripsi": "Obrolan seputar public speaking, rasa takut, dan cara mengatasinya.",
+      "host": "Lumina Club",
+      "tanggal": "2025-12-10",
+      "thumbnail": "../assets/images/podcast/episode-3.jpg",
+      "youtube": "https://www.youtube.com/watch?v=XXXXXXX"
+    }
+  ]
+}
