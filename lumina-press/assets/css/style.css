@@ -234,3 +234,126 @@ img {
   padding: 25px 0;
   font-size: 0.9rem;
 }
+
+
+
+/* ================================
+   RESPONSIVE – ALL IN ONE
+   ================================ */
+
+@media (max-width: 768px) {
+
+  /* GLOBAL */
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 1rem;
+  }
+
+  /* HEADER */
+  .header {
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+
+  .header h1 {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .header p {
+    font-size: 0.95rem;
+  }
+
+  /* NAVBAR */
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .navbar li {
+    width: 100%;
+  }
+
+  .navbar a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.7rem 1rem;
+    font-size: 0.95rem;
+  }
+
+  /* GRID SYSTEM */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  /* CARD */
+  .card {
+    padding: 0.9rem;
+    border-radius: 10px;
+  }
+
+  .card h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.4rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* IMAGE */
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+  }
+
+  /* PODCAST */
+  .podcast iframe,
+  .podcast img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* FOOTER */
+  .footer {
+    padding: 1rem;
+    font-size: 0.85rem;
+    text-align: center;
+  }
+}
+
+/* EXTRA SMALL DEVICE (HP KECIL) */
+@media (max-width: 480px) {
+
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 0.85rem;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+    padding: 0.6rem;
+  }
+}
