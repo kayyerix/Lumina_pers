@@ -1,0 +1,236 @@
+/* =====================
+   RESET & BASE
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fa;
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* =====================
+   LAYOUT
+===================== */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-dark {
+  background-color: #0f1e36;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 30px;
+  color: #0f1e36;
+}
+
+.section-title.light {
+  color: #ffffff;
+}
+
+/* =====================
+   HEADER
+===================== */
+.site-header {
+  background-color: #0f1e36;
+  color: #ffffff;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.site-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  margin-left: 20px;
+  font-size: 0.95rem;
+  color: #ffffff;
+  opacity: 0.85;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+/* =====================
+   HERO
+===================== */
+.hero {
+  height: 70vh;
+  background: url("../images/berita/contoh.jpg") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(15, 30, 54, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  color: #ffffff;
+  text-align: center;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+/* =====================
+   BUTTONS
+===================== */
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 10px 25px;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #162f6a;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #0f1e36;
+}
+
+.btn-secondary:hover {
+  background-color: #e6e6e6;
+}
+
+/* =====================
+   NEWS GRID
+===================== */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.news-card {
+  background-color: #ffffff;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateY(-5px);
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-date {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.news-content h4 {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+.read-more {
+  font-size: 0.9rem;
+  color: #1e3a8a;
+}
+
+/* =====================
+   GALLERY PREVIEW
+===================== */
+.gallery-preview {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.gallery-preview img {
+  border-radius: 6px;
+}
+
+/* =====================
+   PODCAST PREVIEW
+===================== */
+.podcast-preview {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+  max-width: 600px;
+}
+
+.podcast-preview h4 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.podcast-preview p {
+  margin-bottom: 20px;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.site-footer {
+  background-color: #0f1e36;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 0;
+  font-size: 0.9rem;
+}

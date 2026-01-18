@@ -1,0 +1,28 @@
+lumina-press/
+│
+├─ index.html
+│
+├─ pages/
+│   ├─ berita.html
+│   ├─ galeri.html
+│   ├─ podcast.html
+│   └─ tentang.html
+│
+├─ data/
+│   ├─ berita.json
+│   ├─ galeri.json
+│   └─ podcast.json
+│
+├─ assets/
+│   ├─ css/
+│   │   └─ style.css
+│   │
+│   ├─ js/
+│   │   └─ main.js
+│   │
+│   └─ images/
+│       ├─ berita/
+│       ├─ galeri/
+│       └─ podcast/
+│
+└─ README.md
