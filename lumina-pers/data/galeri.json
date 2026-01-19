@@ -1,0 +1,28 @@
+{
+  "galeri": [
+    {
+      "id": 1,
+      "judul": "Upacara Bendera",
+      "deskripsi": "Dokumentasi kegiatan upacara bendera di sekolah.",
+      "tanggal": "2025-09-12",
+      "fotografer": "Tim Lumina",
+      "gambar": "../assets/images/galeri/upacara-bendera.jpg"
+    },
+    {
+      "id": 2,
+      "judul": "Kegiatan Ekstrakurikuler",
+      "deskripsi": "Momen latihan dan kebersamaan antar anggota ekstrakurikuler.",
+      "tanggal": "2025-10-03",
+      "fotografer": "Lumina Photo Team",
+      "gambar": "../assets/images/galeri/ekskul.jpg"
+    },
+    {
+      "id": 3,
+      "judul": "Event Sekolah",
+      "deskripsi": "Liputan acara besar sekolah dengan pendekatan dokumenter.",
+      "tanggal": "2025-11-20",
+      "fotografer": "Lumina Club",
+      "gambar": "../assets/images/galeri/event-sekolah.jpg"
+    }
+  ]
+}
