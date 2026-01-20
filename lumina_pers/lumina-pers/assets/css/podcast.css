@@ -1,0 +1,238 @@
+/* =====================
+   RESET & BASE
+===================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #1f2933;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =====================
+   CONTAINER
+===================== */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* =====================
+   HEADER
+===================== */
+.site-header {
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.top-bar {
+  height: 64px;
+  background-color: #0f1e36;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.top-nav a {
+  margin: 0 12px;
+  font-size: 0.9rem;
+  color: #ffffff;
+}
+
+.top-nav a:hover,
+.top-nav a.active {
+  color: #2563eb;
+}
+
+.header-school {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* =====================
+   CATEGORY BAR
+===================== */
+.category-bar {
+  background-color: #1e3a8a;
+}
+
+.category-inner {
+  display: flex;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.category-inner a {
+  font-size: 0.85rem;
+  color: #ffffff;
+  opacity: 0.85;
+}
+
+.category-inner a:hover,
+.category-inner a.active {
+  color: #2563eb;
+  opacity: 1;
+}
+
+/* =====================
+   HERO
+===================== */
+.hero {
+  background-color: #eef1f5;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 40px 0;
+}
+
+.hero-label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #dc2626;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.hero h2 {
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+  color: #0f1e36;
+}
+
+.hero p {
+  max-width: 640px;
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+/* =====================
+   SECTION
+===================== */
+.section {
+  padding: 50px 0;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  margin-bottom: 24px;
+  color: #0f1e36;
+}
+
+/* =====================
+   PODCAST GRID
+===================== */
+.podcast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+/* =====================
+   PODCAST CARD
+===================== */
+.podcast-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.podcast-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+}
+
+/* COVER */
+.podcast-cover {
+  height: 160px;
+  background-color: #d1d5db; /* fallback kalau ga ada gambar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.play-btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.45);
+  color: #ffffff;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* INFO */
+.podcast-info {
+  padding: 14px;
+}
+
+.podcast-info h4 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+  color: #0f1e36;
+}
+
+.podcast-info p {
+  font-size: 0.85rem;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+/* =====================
+   FOOTER
+===================== */
+.site-footer {
+  background-color: #0f1e36;
+  margin-top: auto;
+  padding: 24px 0;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #d1d5db;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+@media (max-width: 768px) {
+  .top-nav,
+  .header-school {
+    display: none;
+  }
+
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+
+  .podcast-grid {
+    grid-template-columns: 1fr;
+  }
+}
