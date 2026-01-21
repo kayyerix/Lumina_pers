@@ -1,0 +1,23 @@
+{
+  "hero": {
+    "judul": "Pelantikan Pengurus OSIS Periode 2026 Resmi Dilaksanakan",
+    "deskripsi": "Acara berlangsung khidmat di aula sekolah dengan dihadiri kepala sekolah dan seluruh perwakilan kelas."
+  },
+  "berita": [
+    {
+      "judul": "Kegiatan MPLS Hari Pertama",
+      "deskripsi": "Siswa baru mengikuti rangkaian pengenalan lingkungan sekolah.",
+      "gambar": "assets/images/berita/mpls.jpg"
+    },
+    {
+      "judul": "Tim Basket Raih Juara",
+      "deskripsi": "SMA Masehi Kudus kembali menorehkan prestasi di tingkat kota.",
+      "gambar": "assets/images/berita/basket.jpg"
+    },
+    {
+      "judul": "Workshop Jurnalistik Lumina",
+      "deskripsi": "Pelatihan dasar jurnalistik untuk anggota baru Lumina Press.",
+      "gambar": "assets/images/berita/workshop.jpg"
+    }
+  ]
+}
