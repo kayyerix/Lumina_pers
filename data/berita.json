@@ -1,0 +1,20 @@
+[
+  {
+    "judul": "Pameran Seni Siswa Digelar di Aula",
+    "tanggal": "15 Januari 2026",
+    "gambar": "../assets/images/berita/contoh.jpg",
+    "link": "#"
+  },
+  {
+    "judul": "Kegiatan Akademik Semester Baru",
+    "tanggal": "14 Januari 2026",
+    "gambar": "../assets/images/berita/contoh.jpg",
+    "link": "#"
+  },
+  {
+    "judul": "Workshop Jurnalistik",
+    "tanggal": "13 Januari 2026",
+    "gambar": "../assets/images/berita/contoh.jpg",
+    "link": "#"
+  }
+]
